@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(37, 37, 126);
+}
+.login-form{
+    width: 400px;
+    height: 450px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.form-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.email, .password, .submit{
+    display: block;
+    height: 40px;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+   
+}
+
+span{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+ .submit{
+    padding-bottom: 35px;
+    background-color: rgb(14, 133, 14);
+    width: 140px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Arsenal SC"
+ }
+
+
+label{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a{
+    
+    text-decoration: none;
+    color: green;
+}
+
+.span-1{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.show{
+    width: 20px;
+    margin-bottom: 20px;
+}
+.password{
+    margin-bottom: 5px;
+}
