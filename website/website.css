@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 40px;
+    background: #A4C63F;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left{
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+
+.top-date, .top-number{
+    border-right: 1px solid white;
+    padding: 0px 5px;
+    border-left: 1px solid white;
+    border-right: white;
+    padding: 10px;
+}
+.top-number{
+    border-right: 1px solid white;
+}
+.nav-links{
+    border-left: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links:last-child{
+    border-right: 1px solid white;
+}
+
+.top-right{
+    margin-right: 100px;
+}
+
+.center{
+    height: 900px;
+    background: url("apple.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    background: #A4C63F;
+    height: 300px;
+}
+
+.center-top{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.center-bottom{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.ready{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.analysis{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 450px;
+    color: #A4C63F;
+}
+.lorem{
+    font-size: 30px;
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.contact-btn{
+        color: white;
+        border-radius: 30px;
+        height: 60px;
+        width: 200px;
+        font-size: 20px;
+        background-color: #A4C63F;
+        border: none;
+        margin-top: 40px;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    font-size: 25px;
+    margin-left: 100px;
+    
+}
+.bottom-right{
+    margin-right: 80px;
+}
+
+.contact-us{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid white;
+    color: white;
+    background-color: #A4C63F;
+
+}
+
+.request{
+    margin-bottom: 20px;
+}
+
+
+.menu-link:hover{
+    color: blueviolet;
+}
