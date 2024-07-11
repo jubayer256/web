@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+
+}
+
+.grid div{
+    background-color: indianred;
+    padding: 20px;
+}
+
+.grid div:nth-last-child(odd) {
+    background-color: brown;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.socialmedia{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+a{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(117, 114, 114);
+     
+}
+
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-apple{
+    color: #A2AAAD;
+}
+.fa-google{
+    color: #4285F4;
+}
+.fa-youtube{
+    color:  #FF0000;
+}
+
+a:hover i{
+    font-size: 50px;
+    transition: 0.3s;
+}
+
+label{
+    color: red;
+}

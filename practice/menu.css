@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("habibi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu-list{
+    list-style-type: none;
+}
+
+.menu-list li{
+    display: inline;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.menu-list a:hover{
+    color: rgb(207, 190, 190);
+    transition: 0.3s;
+}
+
+.logo{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
