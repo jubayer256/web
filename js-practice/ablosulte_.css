@@ -1,0 +1,22 @@
+.outer-div{
+    width: 400px;
+    height: 400px;
+    background: cyan;
+    padding: 20px;
+    position: relative;
+}
+
+.inner-div{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    right: 80PX;
+    bottom: 100PX;
+}
+
+p{
+    background: white;
+    display: inline;
+}
+
+

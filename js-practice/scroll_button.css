@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    height: 100vh;
+    background: rgb(82, 82, 190);
+}
+
+.section2{
+    height: 100vh;
+    background: rgb(236, 93, 93);
+}
+
+.section3{
+    height: 100vh;
+    background: rgb(95, 85, 85);
+}
+
+#top_btn{
+    position: fixed;
+    color: rgb(0, 0, 0);
+    right: 10px;
+    bottom: 10px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: none;
+}
+

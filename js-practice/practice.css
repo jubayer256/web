@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid black;
+    
+}
+
+.table-div{
+
+    margin-top: 50px;
+
+}
+#students{
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(105, 105, 170);
+
+}
+th, td{
+    padding: 10px;
+}
+
+

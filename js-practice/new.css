@@ -1,0 +1,9 @@
+.main{
+    background-color: rgb(114, 114, 24);
+    width: 400px;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
