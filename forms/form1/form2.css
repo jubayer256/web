@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(103, 27, 173);
+}
+
+.login-form{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.email, .password, .submit{
+    display: block;
+    height: 40px;
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: none;
+    outline: 0;
+    
+}
+
+.forgot{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.account{
+    text-align: center;
+    display: block;
+  
+
+}
+
+.submit{
+    width: 80%;
+    border-left: whitesmoke solid;
+    border-right: whitesmoke solid;
+    margin-top: 60px;
+    border-top: whitesmoke solid;
+    border-bottom: whitesmoke solid;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: rgba(74, 74, 182, 0.822);
+    outline: 0;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eaeef2;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.myform{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black,
+                inset -10px -10px 10px whitesmoke;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black,
+                -5px -5px 10px whitesmoke;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.life{
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+    font-size: 20px;
+    margin-bottom: 5px
+}
+.login-text{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 50px;
+}
+
+.username, .password{
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: inset 5px 5px 10px rgb(173, 171, 171),
+                inset -5px -5px 20px white;
+    border-top: whitesmoke;
+    border-left: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    padding: 0px 20px 0px 60px;
+
+}
+
+.icon{
+    position: absolute;
+    padding: 10px;
+    width: 20px;
+    margin-left: -130px;
+    margin-top: 10px;
+    font-size: 20px
+}
+.submit{
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(173, 171, 171),
+                -5px -5px 20px white;
+    border-top: whitesmoke;
+    border-left: whitesmoke;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    background-color: rgb(20, 180, 20);
+
+}
+
+
